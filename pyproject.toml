@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["jiaozi", "jiaozi.*"]
+
+[project]
+name = "jiaozi"
+version = "0.0.1"
+dependencies = ["pandas"]
+requires-python = ">=3.11"
+authors = [{ name = "CoralLeiCN", email = "" }]
+description = ""
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["machine learning", "data analysis"]
+classifiers = ["Programming Language :: Python :: 3"]
+
+
+[project.urls]
+Homepage = ""
+Documentation = ""
+Repository = "https://github.com/CoralLeiCN/jiaozi"
+
+[tool.pytest.ini_options]
+addopts = ["--cov=jiaozi", "--cov-report html"]
