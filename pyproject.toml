@@ -17,6 +17,8 @@ license = { file = "LICENSE" }
 keywords = ["machine learning", "data analysis"]
 classifiers = ["Programming Language :: Python :: 3"]
 
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov", "ruff"]
 
 [project.urls]
 Homepage = "https://github.com/CoralLeiCN/jiaozi"
