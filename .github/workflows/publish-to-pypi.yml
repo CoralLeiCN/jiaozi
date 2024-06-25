@@ -1,7 +1,7 @@
 name: Publish 🐍 pypi
 
 on:
-  pull_request
+  pull_request:
     branches:
       - main
     paths-ignore:
